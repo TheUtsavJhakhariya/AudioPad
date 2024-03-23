@@ -13,7 +13,7 @@
       document.getElementById('noteInput').value += transcript;
     };
 
-    document.getElementById('playBtn').addEventListener('click', function() {
+    document.getElementById('playBtn').addEventListener('click', function() { 
       const noteText = document.getElementById('noteInput').value;
       const utterance = new SpeechSynthesisUtterance(noteText);
       synthesis.speak(utterance);
