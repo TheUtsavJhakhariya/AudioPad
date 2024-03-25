@@ -3,13 +3,13 @@
 
     recognition.continuous = false;
     recognition.lang = 'en-US';
-   
+    
     document.getElementById('recordBtn').addEventListener('click', function() {
       recognition.start();   
     }); 
    
     recognition.onresult = function(event) { 
-      const transcript = event.results[0][0].transcript; 
+      const transcript = event.results[0][0].transcript;  
       document.getElementById('noteInput').value += transcript;
     };
 
