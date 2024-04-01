@@ -2,7 +2,7 @@
     const synthesis = window.speechSynthesis;
 
     recognition.continuous = false;
-    recognition.lang = 'en-US';
+    recognition.lang = 'en-US'; 
     
     document.getElementById('recordBtn').addEventListener('click', function() { 
       recognition.start();      
