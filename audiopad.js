@@ -11,7 +11,7 @@
     recognition.onresult = function(event) { 
       const transcript = event.results[0][0].transcript;      
       document.getElementById('noteInput').value += transcript; 
-    };
+    }; 
 
     document.getElementById('playBtn').addEventListener('click', function() { 
       const noteText = document.getElementById('noteInput').value;
