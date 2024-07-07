@@ -17,7 +17,7 @@
       const noteText = document.getElementById('noteInput').value;
       const utterance = new SpeechSynthesisUtterance(noteText);
       synthesis.speak(utterance);
-    });
+    }); 
 
     document.getElementById('saveBtn').addEventListener('click', function() {
       saveNote();
