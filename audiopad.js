@@ -4,7 +4,7 @@
     recognition.continuous = false;
     recognition.lang = 'en-US'; 
       
-    document.getElementById('recordBtn').addEventListener('click', function() { 
+    document.getElementById('recordBtn').addEventListener('click', function() {  
       recognition.start();   
     });      
       
