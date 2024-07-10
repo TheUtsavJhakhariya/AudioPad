@@ -5,7 +5,7 @@
     recognition.lang = 'en-US'; 
       
     document.getElementById('recordBtn').addEventListener('click', function() { 
-      recognition.start();  
+      recognition.start();   
     });      
       
     recognition.onresult = function(event) { 
